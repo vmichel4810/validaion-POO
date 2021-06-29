@@ -55,7 +55,7 @@ class Archer extends Character
         
         $damage = 5;
         $target->setHealthPoints($damage);
-        $status = "$this->name lance une attaque à la dague sur $target->name il reste $target->healtPoints points de vie à $target->name";
+        $status = "$this->name utilise la dague $target->name ! Il reste $target->healthPoints points de vie à $target->name !";
         return $status;
     } 
 
